@@ -1,7 +1,55 @@
 /* Custom CSS goes here */
+
+/*
+  File name: COMP229-F2022-Midterm-301101604
+  Student name: Thuan An Quan
+  Student ID: 301101604
+  Web app name: comp229-f2022midterm-301101604.herokuapp.com
+  Course: COMP229 - Section 008
+  Name: Web Application Development
+  Professor: Zakiyabanu Malek
+  Date: October 26, 2022
+*/
+
 body {
-  padding-bottom: 70px;
   font-size: 18px;
   font-family: 'Times New Roman', Times, serif;
-  }
+  background-color: rgb(217,235,245);
+}
+
+.edit{
+  margin-top: 90px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#size{
+  font-size: 50px;
+  margin-top: -40px;
+  margin-bottom: -30px;
+  text-shadow: -1px 1px 1px #919191,
+      -2px 1px 1px #919191,
+      -3px 1px 1px #919191,
+      -4px 1px 1px #919191,
+      -5px 1px 1px #919191,
+      -6px 1px 1px #919191,
+      -7px 1px 1px #919191,
+      -8px 1px 1px #919191,
+      -9px 1px 1px #919191,
+      -10px 1px 1px #919191,
+      -18px 1px 6px rgba(16,16,16,0.4),
+      -22px 1px 10px rgba(16,16,16,0.2),
+      -25px 1px 35px rgba(16,16,16,0.2),
+      -30px 1px 60px rgba(16,16,16,0.4);
+}
+
+.info{
+  padding-top: 80px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.table{
+  background-color: rgb(201,215,216);
+}
 
