@@ -113,10 +113,9 @@ router.post("/edit/:id", (req, res, next) => {
 });
 
 // GET - process the delete by specific employeename
-router.get("/delete/:id", (req, res, next) => {
-  let id = req.params.id;
+router.get("/delete", (req, res, next) => {
 
-  employee.remove({_id: id}, (err) => {
+  employee.deleteOne({Employeename: "Anson Quan"}, (err) => {
     if(err)
     {
       console.log(err);

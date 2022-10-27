@@ -43,17 +43,13 @@
               <td class="text-center">
                 <a href="/employees/edit/<%= employees[count]._id %>" class="btn btn-primary"> <i class="fa"></i>Edit</a>
               </td>
-              <td class="text-center">
-                <a href="/employees/delete/<%= employees[count]._id %>" class="btn btn-warning btn-sm">
-                  <i class="fas"></i> Delete</a>
-              </td>
             </tr>
             <% } %>
           </tbody>
         </table>
       </div>
-
-    </main>
+      <a href="/employees/delete/<%= employees.Employeename %>" class="btn btn-warning btn-sm">
+      <i class="fas"></i> Delete</a>
     
       <div class="col-md-offset-1 col-md-10 text-center">
         <ul class="pagination pagination-lg pager" id="myPager"></ul>
